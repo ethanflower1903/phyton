@@ -1,0 +1,22 @@
+max_note = 0
+min_note = 0
+for i in grades:
+    avg_note = sum(grades[i].values())/len(grades[i].values())
+    print(avg_note)
+    
+    if avg_note > max_note:
+        max_note = avg_note
+        max_avg_stud = i
+       
+   
+    if min_note == 0:
+        min_note = avg_note
+        min_avg_stud = i
+       
+            
+    if min_note > avg_note:
+        min_note = avg_note
+        min_avg_stud = i
+       
+print("minimum average student = ", min_avg_stud, ", maximum average student= ", max_avg_stud)
+            
