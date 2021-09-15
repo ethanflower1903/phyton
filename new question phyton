@@ -1,0 +1,10 @@
+def bigger(a):
+    count = 0
+    result = []
+    for i in range(len(a)):
+        for j in a[i:]:
+            if j < a[i]:
+                count += 1
+        result.append(count)
+        count = 0
+    return result
