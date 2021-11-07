@@ -1,0 +1,22 @@
+def find_zig(nums, target):
+    
+    if target ==1:
+        return nums
+    
+    zigz = [""]*target
+    down = True
+    j = 0
+    
+    for i in range(len(nums)):
+        if j < (target -1) and down : 
+            zigz[j] += nums[i]
+            j += 1      
+        elif j == 0 :
+            zigz[j] += nums[i]
+            down = True
+            j+= 1  
+        elif j == (target -1) or down == False:   
+            zigz[j] += nums[i]
+            down = False
+            j -= 1
+    return "".join(zigz)

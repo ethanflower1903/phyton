@@ -1,0 +1,18 @@
+import random
+sayı=random.randint(1,10)
+hak=3
+while hak!=0:
+    tahmin=int(input("aklımdan bir sayı tuttum bir bakalım ne?"))
+    
+    if tahmin>sayı:
+        print("bilemedin aşağı")
+        hak-=1
+    elif tahmin<sayı:
+        print("bilemedin yukarı")
+        hak-=1
+    else:
+        print("Süper bildin...")
+        break
+        
+else:
+    print("Hakkınız bitti..")

@@ -1,0 +1,13 @@
+def f_min_insert(s): 
+    if s == s[::-1]: 
+        return s
+    if s[0] == s[-1]: 
+        return s[0] + f_min_insert(s[1:-1]) + s[-1]
+    else:
+        sl = s[0] + f_min_insert(s[1:]) + s[0]
+        sr = s[-1] + f_min_insert(s[:-1]) + s[-1]
+        if len(sl) > len(sr):
+            return sr
+        elif len(sl) < len(sr):
+            return sl
+        return sl if sl < sr else sr
