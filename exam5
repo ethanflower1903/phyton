@@ -1,0 +1,11 @@
+a = 0
+b = "empty"
+import config
+
+config.a = 10
+config.b = "alphabet"
+import config
+import update
+
+print(config.a)
+print(config.b)
