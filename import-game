@@ -1,0 +1,6 @@
+import Game.Level.start
+Game.Level.start.select_difficulty(2)
+from Game.Level import start
+start.select_difficulty(2)
+from Game.Level.start import select_difficulty
+select_difficulty(2)
