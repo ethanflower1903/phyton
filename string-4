@@ -1,0 +1,9 @@
+# two string literals together
+>>> 'Hello ''World!'
+'Hello World!'
+
+>>> # using parentheses
+>>> s = ('Hello '
+...      'World')
+>>> s
+'Hello World'
