@@ -1,0 +1,10 @@
+>>> os.listdir()
+['new_one', 'old.txt']
+
+>>> os.remove('old.txt')
+>>> os.listdir()
+['new_one']
+
+>>> os.rmdir('new_one')
+>>> os.listdir()
+[]
