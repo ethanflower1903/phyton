@@ -1,0 +1,12 @@
+>>> num1 = ComplexNumber(2,3)
+>>> del num1.imag
+>>> num1.get_data()
+Traceback (most recent call last):
+...
+AttributeError: 'ComplexNumber' object has no attribute 'imag'
+
+>>> del ComplexNumber.get_data
+>>> num1.get_data()
+Traceback (most recent call last):
+...
+AttributeError: 'ComplexNumber' object has no attribute 'get_data'
