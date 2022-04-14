@@ -1,0 +1,6 @@
+# Python code to demonstrate gcd() 
+# method to compute gcd 
+import math 
+# prints 12 
+print ("The gcd of 60 and 48 is : ",end="") 
+print (math.gcd(60,48)) 
