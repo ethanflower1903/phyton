@@ -1,0 +1,4 @@
+a = 10
+b = 3.142
+c = 10+6j
+print(int(b), float(a), str(c))
