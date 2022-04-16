@@ -1,0 +1,4 @@
+MyPhoneBook = { 'Name' : [ 'Akash', 'Ankita' ] ,
+'Phone' : [ '12345', '12354' ] ,
+'E-Mail' : [ 'akash@rail.com', 'ankita@rail.com' ]}
+print (MyPhoneBook)
