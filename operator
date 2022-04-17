@@ -1,0 +1,6 @@
++	Adds the values of the operands
+–	Subtracts the value of the right operator with the left operator
+*	Multiples left operand with the right operand
+/	Divides the left operand with the right operand
+%	Divides the left operand with the right operand and returns the remainder
+**	Performs the exponential of the left operand with the right operand
