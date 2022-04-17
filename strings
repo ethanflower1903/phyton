@@ -1,0 +1,11 @@
+Note: The string here I use is : mystsr =”edureka! is my place”
+
+Code Snippet	Output Obtained	Operation Description
+len(mystr)	20	Finds the length of the string
+mystr.index(‘!’)	7	Finds the index of the given character in the string
+mystr.count(‘!’)	1	Finds the count of the character passed as the parameter
+mystr.upper()	EDUREKA! IS MY PLACE	Converts all the string into the upper case
+mystr.split(‘ ‘)	[‘edureka!’, ‘is’, ‘my’, ‘place’]	Breaks the string based on the delimiter passed as the parameter.
+mystr.lower()	edureka! is my place	Converts all the strings of the string into lower case
+mystr.replace(‘ ‘, ‘,’)	edureka!,is,my,place	Replaces the string which has old value with the new value.
+mystr.capitalize()	Edureka! is my place	This capitalizes the first letter of the string
