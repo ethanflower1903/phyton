@@ -1,0 +1,7 @@
+Operator	Description
+==	Find out whether the left and right operands are equal in value or not
+!=	Find out whether the values of left and right operators are not equal
+<	Find out whether the value of the right operand is greater than that of the left operand
+>	Find out whether the value of the left operand is greater than that of the right operand
+<=	Find out whether the value of the right operand is greater than or equal to that of the left operand
+>=	Find out whether the value of the left operand is greater than or equal to that of the right operand
