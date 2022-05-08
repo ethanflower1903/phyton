@@ -10,3 +10,4 @@ def print_msg(msg):
 # We execute the function
 # Output: Hello
 print_msg("Hello")
+# this is important
