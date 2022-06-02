@@ -6,3 +6,4 @@ first("Hello")
 
 second = first
 second("Hello")
+# IMPORT
