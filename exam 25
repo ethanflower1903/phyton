@@ -1,0 +1,3 @@
+print('C:\\north pole\noise _penguins.txt')
+print('-------')
+print('first', 'second', 'third', sep = '\t')
