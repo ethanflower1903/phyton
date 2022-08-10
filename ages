@@ -1,4 +1,4 @@
-def yasHesapla(dogumYili):
+def yasHesapla(dogumYili):;
     return 2019 - dogumYili
 
 ageCinar = yasHesapla(2017)
