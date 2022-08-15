@@ -1,4 +1,4 @@
-class Parrot:;
+class Parrot:
     
     # instance attributes
     def __init__(self, name, age):
