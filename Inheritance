@@ -9,4 +9,4 @@ class Polygon:
     def dispSides(self):
         for i in range(self.n):
             print("Side",i+1,"is",self.sides[i])
-#import sentence
+#import sentence...
