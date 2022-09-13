@@ -1,5 +1,5 @@
 class Parrot:
-;;
+
     # class attribute
     species = "bird"
 
