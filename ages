@@ -7,4 +7,4 @@ ageSena = yasHesapla(1999)
 
 print(ageCinar, ageAda, ageSena)
 # age calculate..
-..
+
