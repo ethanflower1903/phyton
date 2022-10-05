@@ -6,5 +6,5 @@ ageAda = yasHesapla(2010)
 ageSena = yasHesapla(1999)
 
 print(ageCinar, ageAda, ageSena)
-# age calculate..
+# age calculate.....
 
